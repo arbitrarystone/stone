@@ -1,0 +1,9 @@
+servers:
+    - address: ["0.0.0.0:8020"]
+      keepalive: 1 
+      timeout: 1000
+      name: stone/1.1
+      accept_worker: accept
+      io_worker: io
+      process_worker: io
+      type: http

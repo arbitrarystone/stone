@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O0 -std=c++11 -ggdb -g -Wall -Wno-deprecated -Werror -Wno-unused-function -fPIC  -rdynamic CMakeFiles/test_http_parser.dir/tests/test_http_parser.cpp.o  -o ../bin/test_http_parser -Wl,-rpath,/home/admin/stone/lib ../lib/libstone.so -ldl -lpthread -lyaml-cpp -ljsoncpp -ltinyxml2 -lsqlite3 orm_out/liborm_data.a -ldl 

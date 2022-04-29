@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O0 -std=c++11 -ggdb -g -Wall -Wno-deprecated -Werror -Wno-unused-function -fPIC  -rdynamic CMakeFiles/echo_server.dir/examples/echo_server.cpp.o  -o ../bin/echo_server -Wl,-rpath,/home/admin/stone/lib ../lib/libstone.so -ldl -lpthread -lyaml-cpp -ljsoncpp -ltinyxml2 -lsqlite3 orm_out/liborm_data.a -ldl 

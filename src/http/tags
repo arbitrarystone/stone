@@ -1,0 +1,366 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CaseInsensitiveLess	http.hpp	/^struct CaseInsensitiveLess{$/;"	s	namespace:stone::http
+CharsToHttpMethod	http.cpp	/^HttpMethod CharsToHttpMethod(const char* m){$/;"	f	namespace:stone::http
+FunctionServlet	servlet.cpp	/^FunctionServlet::FunctionServlet(callback cb)$/;"	f	class:stone::http::FunctionServlet
+FunctionServlet	servlet.hpp	/^class FunctionServlet : public Servlet {$/;"	c	namespace:stone::http
+GetRequestBufferSize	http_parser.cpp	/^uint64_t HttpRequestParser::GetRequestBufferSize(){$/;"	f	class:stone::http::HttpRequestParser
+GetRequestMaxBodySize	http_parser.cpp	/^uint64_t HttpRequestParser::GetRequestMaxBodySize(){$/;"	f	class:stone::http::HttpRequestParser
+HTTP_METHOD_MAP	http.hpp	15;"	d
+HTTP_STATUS_MAP	http.hpp	60;"	d
+HoldServletCreator	servlet.hpp	/^        HoldServletCreator(Servlet::ptr slt)$/;"	f	class:stone::http::HoldServletCreator
+HoldServletCreator	servlet.hpp	/^class HoldServletCreator : public IServletCreator {$/;"	c	namespace:stone::http
+HttpMethod	http.hpp	/^enum class HttpMethod{$/;"	c	namespace:stone::http
+HttpMethodToString	http.cpp	/^const char* HttpMethodToString(const HttpMethod& m){$/;"	f	namespace:stone::http
+HttpRequest	http.cpp	/^HttpRequest::HttpRequest(uint8_t version,bool close)$/;"	f	class:stone::http::HttpRequest
+HttpRequest	http.hpp	/^class HttpRequest{$/;"	c	namespace:stone::http
+HttpRequestParser	http_parser.cpp	/^HttpRequestParser::HttpRequestParser()$/;"	f	class:stone::http::HttpRequestParser
+HttpRequestParser	http_parser.hpp	/^class HttpRequestParser{$/;"	c	namespace:stone::http
+HttpResponse	http.cpp	/^HttpResponse::HttpResponse(uint8_t version,bool close)$/;"	f	class:stone::http::HttpResponse
+HttpResponse	http.hpp	/^class HttpResponse{$/;"	c	namespace:stone::http
+HttpResponseParser	http_parser.cpp	/^HttpResponseParser::HttpResponseParser()$/;"	f	class:stone::http::HttpResponseParser
+HttpResponseParser	http_parser.hpp	/^class HttpResponseParser{$/;"	c	namespace:stone::http
+HttpServer	http_server.cpp	/^HttpServer::HttpServer(bool keepalive$/;"	f	class:stone::http::HttpServer
+HttpServer	http_server.hpp	/^class HttpServer : public TcpServer{$/;"	c	namespace:stone::http
+HttpSession	http_session.cpp	/^HttpSession::HttpSession(Socket::ptr sock,bool owner)$/;"	f	class:stone::http::HttpSession
+HttpSession	http_session.hpp	/^class HttpSession : public SocketStream{$/;"	c	namespace:stone::http
+HttpStatus	http.hpp	/^enum class HttpStatus{$/;"	c	namespace:stone::http
+HttpStatusToString	http.cpp	/^const char* HttpStatusToString(const HttpStatus& m){$/;"	f	namespace:stone::http
+IServletCreator	servlet.hpp	/^class IServletCreator {$/;"	c	namespace:stone::http
+LEN	http11_parser.rl.cpp	45;"	d	file:
+LEN	httpclient_parser.rl.cpp	46;"	d	file:
+MARK	http11_parser.rl.cpp	46;"	d	file:
+MARK	httpclient_parser.rl.cpp	47;"	d	file:
+MapType	http.hpp	/^    typedef std::map<std::string,std::string,CaseInsensitiveLess> MapType;$/;"	t	class:stone::http::HttpRequest
+MapType	http.hpp	/^    typedef std::map<std::string,std::string,CaseInsensitiveLess> MapType;$/;"	t	class:stone::http::HttpResponse
+NotFoundServlet	servlet.cpp	/^NotFoundServlet::NotFoundServlet(const std::string& name)$/;"	f	class:stone::http::NotFoundServlet
+NotFoundServlet	servlet.hpp	/^class NotFoundServlet : public Servlet {$/;"	c	namespace:stone::http
+PTR_TO	http11_parser.rl.cpp	47;"	d	file:
+PTR_TO	httpclient_parser.rl.cpp	48;"	d	file:
+RWMutexType	servlet.hpp	/^        typedef RWMutex RWMutexType;$/;"	t	class:stone::http::ServletDispatch
+Servlet	servlet.hpp	/^    Servlet(const std::string& name)$/;"	f	class:stone::http::Servlet
+Servlet	servlet.hpp	/^class Servlet {$/;"	c	namespace:stone::http
+ServletCreator	servlet.hpp	/^        ServletCreator() {$/;"	f	class:stone::http::ServletCreator
+ServletCreator	servlet.hpp	/^class ServletCreator : public IServletCreator {$/;"	c	namespace:stone::http
+ServletDispatch	servlet.cpp	/^ServletDispatch::ServletDispatch()$/;"	f	class:stone::http::ServletDispatch
+ServletDispatch	servlet.hpp	/^class ServletDispatch : public Servlet {$/;"	c	namespace:stone::http
+StringToHttpMethod	http.cpp	/^HttpMethod StringToHttpMethod(const std::string& m){$/;"	f	namespace:stone::http
+TcpServer	tcp_server.cpp	/^TcpServer::TcpServer(stone::IOManager* worker$/;"	f	class:stone::TcpServer
+TcpServer	tcp_server.hpp	/^class TcpServer:public std::enable_shared_from_this<TcpServer>{$/;"	c	namespace:stone
+XX	http.cpp	12;"	d	file:
+XX	http.cpp	17;"	d	file:
+XX	http.cpp	22;"	d	file:
+XX	http.cpp	28;"	d	file:
+XX	http.cpp	30;"	d	file:
+XX	http.cpp	42;"	d	file:
+XX	http.cpp	46;"	d	file:
+XX	http.cpp	7;"	d	file:
+XX	http.hpp	123;"	d
+XX	http.hpp	125;"	d
+XX	http.hpp	130;"	d
+XX	http.hpp	132;"	d
+_RequestSizeIniter	http_parser.cpp	/^    _RequestSizeIniter(){$/;"	f	struct:stone::http::_RequestSizeIniter
+_RequestSizeIniter	http_parser.cpp	/^struct _RequestSizeIniter{$/;"	s	namespace:stone::http	file:
+__STONE_HTTP_HTTP_HPP__	http.hpp	2;"	d
+__STONE_HTTP_PARSER_HPP__	http_parser.hpp	2;"	d
+__STONE_HTTP_SERVER_HPP__	http_server.hpp	2;"	d
+__STONE_HTTP_SESSION_HPP__	http_session.hpp	2;"	d
+__STONE_TCP_SERVER_HPP__	tcp_server.hpp	2;"	d
+__SYLAR_HTTP_SERVLET_H__	servlet.hpp	2;"	d
+_http11_common_h	http11_common.h	2;"	d
+_http_parser_nfa_offsets	http11_parser.rl.cpp	/^static const char _http_parser_nfa_offsets[] = {$/;"	v	file:
+_http_parser_nfa_pop_trans	http11_parser.rl.cpp	/^static const char _http_parser_nfa_pop_trans[] = {$/;"	v	file:
+_http_parser_nfa_push_actions	http11_parser.rl.cpp	/^static const char _http_parser_nfa_push_actions[] = {$/;"	v	file:
+_http_parser_nfa_targs	http11_parser.rl.cpp	/^static const char _http_parser_nfa_targs[] = {$/;"	v	file:
+_httpclient_parser_nfa_offsets	httpclient_parser.rl.cpp	/^static const char _httpclient_parser_nfa_offsets[] = {$/;"	v	file:
+_httpclient_parser_nfa_pop_trans	httpclient_parser.rl.cpp	/^static const char _httpclient_parser_nfa_pop_trans[] = {$/;"	v	file:
+_httpclient_parser_nfa_push_actions	httpclient_parser.rl.cpp	/^static const char _httpclient_parser_nfa_push_actions[] = {$/;"	v	file:
+_httpclient_parser_nfa_targs	httpclient_parser.rl.cpp	/^static const char _httpclient_parser_nfa_targs[] = {$/;"	v	file:
+_init	http_parser.cpp	/^static _RequestSizeIniter _init;$/;"	m	namespace:stone::http	file:
+addGlobServlet	servlet.cpp	/^void ServletDispatch::addGlobServlet(const std::string& uri$/;"	f	class:stone::http::ServletDispatch
+addGlobServletCreator	servlet.cpp	/^void ServletDispatch::addGlobServletCreator(const std::string& uri, IServletCreator::ptr creator) {$/;"	f	class:stone::http::ServletDispatch
+addGlobServletCreator	servlet.hpp	/^            void addGlobServletCreator(const std::string& uri) {$/;"	f	class:stone::http::ServletDispatch
+addServlet	servlet.cpp	/^void ServletDispatch::addServlet(const std::string& uri$/;"	f	class:stone::http::ServletDispatch
+addServlet	servlet.cpp	/^void ServletDispatch::addServlet(const std::string& uri, Servlet::ptr slt) {$/;"	f	class:stone::http::ServletDispatch
+addServletCreator	servlet.cpp	/^void ServletDispatch::addServletCreator(const std::string& uri, IServletCreator::ptr creator) {$/;"	f	class:stone::http::ServletDispatch
+addServletCreator	servlet.hpp	/^            void addServletCreator(const std::string& uri) {$/;"	f	class:stone::http::ServletDispatch
+bind	tcp_server.cpp	/^bool TcpServer::bind(Address::ptr addr){$/;"	f	class:stone::TcpServer
+bind	tcp_server.cpp	/^bool TcpServer::bind(const std::vector<Address::ptr>& addrs$/;"	f	class:stone::TcpServer
+body_start	http11_parser.h	/^    size_t body_start;$/;"	m	struct:http_parser
+body_start	httpclient_parser.h	/^    size_t body_start;$/;"	m	struct:httpclient_parser
+callback	servlet.hpp	/^                , sylar::http::HttpSession::ptr session)> callback;$/;"	t	class:stone::http::FunctionServlet
+check	httpclient_parser.rl.cpp	49;"	d	file:
+checkGetAs	http.hpp	/^bool checkGetAs(const MapType& m,const std::string& key,T& val,const T& def = T()){$/;"	f	namespace:stone::http
+checkGetCookieAs	http.hpp	/^    bool checkGetCookieAs(const std::string& key,T& val,const T& def = T()){$/;"	f	class:stone::http::HttpRequest
+checkGetHeaderAs	http.hpp	/^    bool checkGetHeaderAs(const std::string& key,T& val,const T& def = T()){$/;"	f	class:stone::http::HttpRequest
+checkGetHeaderAs	http.hpp	/^    bool checkGetHeaderAs(const std::string& key,T& val,const T& def = T()){$/;"	f	class:stone::http::HttpResponse
+checkGetParamAs	http.hpp	/^    bool checkGetParamAs(const std::string& key,T& val,const T& def = T()){$/;"	f	class:stone::http::HttpRequest
+chunk_size	httpclient_parser.h	/^    element_cb chunk_size;$/;"	m	struct:httpclient_parser
+chunked	httpclient_parser.h	/^    int chunked;$/;"	m	struct:httpclient_parser
+chunks_done	httpclient_parser.h	/^    int chunks_done;$/;"	m	struct:httpclient_parser
+close	httpclient_parser.h	/^    int close;$/;"	m	struct:httpclient_parser
+content_len	http11_parser.h	/^    int content_len;$/;"	m	struct:http_parser
+content_len	httpclient_parser.h	/^    int content_len;$/;"	m	struct:httpclient_parser
+cs	http11_parser.h	/^    int cs;$/;"	m	struct:http_parser
+cs	httpclient_parser.h	/^    int cs;$/;"	m	struct:httpclient_parser
+data	http11_parser.h	/^    void *data;$/;"	m	struct:http_parser
+data	httpclient_parser.h	/^    void *data;$/;"	m	struct:httpclient_parser
+delCookie	http.cpp	/^void HttpRequest::delCookie(const std::string& key){$/;"	f	class:stone::http::HttpRequest
+delGlobServlet	servlet.cpp	/^void ServletDispatch::delGlobServlet(const std::string& uri) {$/;"	f	class:stone::http::ServletDispatch
+delHeader	http.cpp	/^void HttpRequest::delHeader(const std::string& key){$/;"	f	class:stone::http::HttpRequest
+delHeader	http.cpp	/^void HttpResponse::delHeader(const std::string& key){$/;"	f	class:stone::http::HttpResponse
+delParam	http.cpp	/^void HttpRequest::delParam(const std::string& key){$/;"	f	class:stone::http::HttpRequest
+delServlet	servlet.cpp	/^void ServletDispatch::delServlet(const std::string& uri) {$/;"	f	class:stone::http::ServletDispatch
+dump	http.cpp	/^std::ostream& HttpRequest::dump(std::ostream& os)const{$/;"	f	class:stone::http::HttpRequest
+dump	http.cpp	/^std::ostream& HttpResponse::dump(std::ostream& os)const{$/;"	f	class:stone::http::HttpResponse
+element_cb	http11_common.h	/^typedef void (*element_cb)(void *data, const char *at, size_t length);$/;"	t
+execute	http_parser.cpp	/^size_t HttpRequestParser::execute(char* data,size_t len){$/;"	f	class:stone::http::HttpRequestParser
+execute	http_parser.cpp	/^size_t HttpResponseParser::execute(char* data,size_t len){$/;"	f	class:stone::http::HttpResponseParser
+field_cb	http11_common.h	/^typedef void (*field_cb)(void *data, const char *field, size_t flen, const char *value, size_t vlen);$/;"	t
+field_len	http11_parser.h	/^    size_t field_len;$/;"	m	struct:http_parser
+field_len	httpclient_parser.h	/^    size_t field_len;$/;"	m	struct:httpclient_parser
+field_start	http11_parser.h	/^    size_t field_start;$/;"	m	struct:http_parser
+field_start	httpclient_parser.h	/^    size_t field_start;$/;"	m	struct:httpclient_parser
+fragment	http11_parser.h	/^    element_cb fragment;$/;"	m	struct:http_parser
+g_http_request_buffer_size	http_parser.cpp	/^static stone::ConfigVar<uint64_t>::ptr g_http_request_buffer_size = $/;"	m	namespace:stone::http	file:
+g_http_request_max_body_size	http_parser.cpp	/^static stone::ConfigVar<uint64_t>::ptr g_http_request_max_body_size = $/;"	m	namespace:stone::http	file:
+g_logger	http_parser.cpp	/^static stone::Logger::ptr g_logger = STONE_LOG_NAME("system");$/;"	m	namespace:stone::http	file:
+g_logger	http_server.cpp	/^static stone::Logger::ptr g_logger = STONE_LOG_NAME("system");$/;"	m	namespace:stone::http	file:
+g_logger	tcp_server.cpp	/^static stone::Logger::ptr g_logger = STONE_LOG_NAME("system");$/;"	m	namespace:stone	file:
+g_tcp_server_read_timeout	tcp_server.cpp	/^static stone::ConfigVar<uint64_t>::ptr g_tcp_server_read_timeout = $/;"	m	namespace:stone	file:
+getAs	http.hpp	/^T getAs(const MapType& m,const std::string& key,const T& def = T()){$/;"	f	namespace:stone::http
+getBody	http.hpp	/^    const std::string& getBody() const { return m_body; }$/;"	f	class:stone::http::HttpRequest
+getBody	http.hpp	/^    const std::string& getBody() const { return m_body; }$/;"	f	class:stone::http::HttpResponse
+getContentLength	http_parser.cpp	/^uint64_t HttpRequestParser::getContentLength() const{$/;"	f	class:stone::http::HttpRequestParser
+getContentLength	http_parser.cpp	/^uint64_t HttpResponseParser::getContentLength() const{$/;"	f	class:stone::http::HttpResponseParser
+getCookie	http.cpp	/^std::string HttpRequest::getCookie(const std::string& key,const std::string& def) const{$/;"	f	class:stone::http::HttpRequest
+getCookieAs	http.hpp	/^    T getCookieAs(const std::string& key,const T& def = T()){$/;"	f	class:stone::http::HttpRequest
+getCookies	http.hpp	/^    const MapType& getCookies() const { return m_cookies;}$/;"	f	class:stone::http::HttpRequest
+getData	http_parser.hpp	/^    HttpRequest::ptr getData() const { return m_data;}$/;"	f	class:stone::http::HttpRequestParser
+getData	http_parser.hpp	/^    HttpResponse::ptr getData() const { return m_data;}$/;"	f	class:stone::http::HttpResponseParser
+getDefault	servlet.hpp	/^        Servlet::ptr getDefault() const { return m_default;}$/;"	f	class:stone::http::ServletDispatch
+getGlobServlet	servlet.cpp	/^Servlet::ptr ServletDispatch::getGlobServlet(const std::string& uri) {$/;"	f	class:stone::http::ServletDispatch
+getHeader	http.cpp	/^std::string HttpRequest::getHeader(const std::string& key$/;"	f	class:stone::http::HttpRequest
+getHeader	http.cpp	/^std::string HttpResponse::getHeader(const std::string& key,const std::string& def) const {$/;"	f	class:stone::http::HttpResponse
+getHeaderAs	http.hpp	/^    T getHeaderAs(const std::string& key,const T& def = T()){$/;"	f	class:stone::http::HttpRequest
+getHeaderAs	http.hpp	/^    T getHeaderAs(const std::string& key,const T& def = T()){$/;"	f	class:stone::http::HttpResponse
+getHeaders	http.hpp	/^    const MapType& getHeaders() const { return m_headers; }$/;"	f	class:stone::http::HttpResponse
+getHeaders	http.hpp	/^    const MapType& getHeaders() const { return m_headers;}$/;"	f	class:stone::http::HttpRequest
+getMatchedServlet	servlet.cpp	/^Servlet::ptr ServletDispatch::getMatchedServlet(const std::string& uri) {$/;"	f	class:stone::http::ServletDispatch
+getMethod	http.hpp	/^    HttpMethod getMethod() const { return m_method; }$/;"	f	class:stone::http::HttpRequest
+getName	servlet.hpp	/^    const std::string& getName() const { return m_name;}$/;"	f	class:stone::http::Servlet
+getName	tcp_server.hpp	/^    std::string getName() const { return m_name;}$/;"	f	class:stone::TcpServer
+getParam	http.cpp	/^std::string HttpRequest::getParam(const std::string& key,const std::string& def) const{$/;"	f	class:stone::http::HttpRequest
+getParamAs	http.hpp	/^    T getParamAs(const std::string& key,const T& def = T()){$/;"	f	class:stone::http::HttpRequest
+getParams	http.hpp	/^    const MapType& getParams() const { return m_params;}$/;"	f	class:stone::http::HttpRequest
+getPath	http.hpp	/^    const std::string& getPath() const { return m_path; }$/;"	f	class:stone::http::HttpRequest
+getQuery	http.hpp	/^    const std::string& getQuery() const { return m_query; } $/;"	f	class:stone::http::HttpRequest
+getReason	http.hpp	/^    const std::string& getReason() const { return m_reason; }$/;"	f	class:stone::http::HttpResponse
+getRecvTimeout	tcp_server.hpp	/^    uint64_t getRecvTimeout() const { return m_recvTimeout;}$/;"	f	class:stone::TcpServer
+getServlet	servlet.cpp	/^Servlet::ptr ServletDispatch::getServlet(const std::string& uri) {$/;"	f	class:stone::http::ServletDispatch
+getStatus	http.hpp	/^    HttpStatus getStatus() const { return m_status; }$/;"	f	class:stone::http::HttpResponse
+getVersion	http.hpp	/^    uint8_t getVersion() const { return m_version; }$/;"	f	class:stone::http::HttpRequest
+getVersion	http.hpp	/^    uint8_t getVersion() const { return m_version; }$/;"	f	class:stone::http::HttpResponse
+handle	servlet.cpp	/^int32_t FunctionServlet::handle(stone::http::HttpRequest::ptr request$/;"	f	class:stone::http::FunctionServlet
+handle	servlet.cpp	/^int32_t NotFoundServlet::handle(stone::http::HttpRequest::ptr request$/;"	f	class:stone::http::NotFoundServlet
+handle	servlet.cpp	/^int32_t ServletDispatch::handle(stone::http::HttpRequest::ptr request$/;"	f	class:stone::http::ServletDispatch
+handleClient	http_server.cpp	/^void HttpServer::handleClient(Socket::ptr client){$/;"	f	class:stone::http::HttpServer
+handleClient	tcp_server.cpp	/^void TcpServer::handleClient(Socket::ptr client){$/;"	f	class:stone::TcpServer
+hasCookie	http.cpp	/^bool HttpRequest::hasCookie(const std::string& key,std::string* val){$/;"	f	class:stone::http::HttpRequest
+hasError	http_parser.cpp	/^int HttpRequestParser::hasError(){$/;"	f	class:stone::http::HttpRequestParser
+hasError	http_parser.cpp	/^int HttpResponseParser::hasError(){$/;"	f	class:stone::http::HttpResponseParser
+hasHeader	http.cpp	/^bool HttpRequest::hasHeader(const std::string& key,std::string* val){$/;"	f	class:stone::http::HttpRequest
+hasParam	http.cpp	/^bool HttpRequest::hasParam(const std::string& key,std::string* val){$/;"	f	class:stone::http::HttpRequest
+header_done	http11_parser.h	/^    element_cb header_done;$/;"	m	struct:http_parser
+header_done	httpclient_parser.h	/^    element_cb header_done;$/;"	m	struct:httpclient_parser
+http	http.cpp	/^namespace http{$/;"	n	namespace:stone	file:
+http	http.hpp	/^namespace http{$/;"	n	namespace:stone
+http	http_parser.cpp	/^namespace http{$/;"	n	namespace:stone	file:
+http	http_parser.hpp	/^namespace http{$/;"	n	namespace:stone
+http	http_server.cpp	/^namespace http{$/;"	n	namespace:stone	file:
+http	http_server.hpp	/^namespace http{$/;"	n	namespace:stone
+http	http_session.cpp	/^namespace http{$/;"	n	namespace:stone	file:
+http	http_session.hpp	/^namespace http{$/;"	n	namespace:stone
+http	servlet.cpp	/^namespace http {$/;"	n	namespace:stone	file:
+http	servlet.hpp	/^namespace http {$/;"	n	namespace:stone
+http11_parser_h	http11_parser.h	2;"	d
+http_field	http11_parser.h	/^    field_cb http_field;$/;"	m	struct:http_parser
+http_field	httpclient_parser.h	/^    field_cb http_field;$/;"	m	struct:httpclient_parser
+http_parser	http11_parser.h	/^typedef struct http_parser { $/;"	s
+http_parser	http11_parser.h	/^} http_parser;$/;"	t	typeref:struct:http_parser
+http_parser_en_main	http11_parser.rl.cpp	/^static const int http_parser_en_main = 1;$/;"	v	file:
+http_parser_error	http11_parser.rl.cpp	/^static const int http_parser_error = 0;$/;"	v	file:
+http_parser_execute	http11_parser.rl.cpp	/^size_t http_parser_execute(http_parser *parser, const char *buffer, size_t len, size_t off)  $/;"	f
+http_parser_finish	http11_parser.rl.cpp	/^int http_parser_finish(http_parser *parser)$/;"	f
+http_parser_first_final	http11_parser.rl.cpp	/^static const int http_parser_first_final = 348;$/;"	v	file:
+http_parser_has_error	http11_parser.rl.cpp	/^int http_parser_has_error(http_parser *parser) {$/;"	f
+http_parser_init	http11_parser.rl.cpp	/^int http_parser_init(http_parser *parser) {$/;"	f
+http_parser_is_finished	http11_parser.rl.cpp	/^int http_parser_is_finished(http_parser *parser) {$/;"	f
+http_parser_nread	http11_parser.h	38;"	d
+http_parser_start	http11_parser.rl.cpp	/^static const int http_parser_start = 1;$/;"	v	file:
+http_version	http11_parser.h	/^    element_cb http_version;$/;"	m	struct:http_parser
+http_version	httpclient_parser.h	/^    element_cb http_version;$/;"	m	struct:httpclient_parser
+httpclient_parser	httpclient_parser.h	/^typedef struct httpclient_parser { $/;"	s
+httpclient_parser	httpclient_parser.h	/^} httpclient_parser;$/;"	t	typeref:struct:httpclient_parser
+httpclient_parser_en_main	httpclient_parser.rl.cpp	/^static const int httpclient_parser_en_main = 1;$/;"	v	file:
+httpclient_parser_error	httpclient_parser.rl.cpp	/^static const int httpclient_parser_error = 0;$/;"	v	file:
+httpclient_parser_execute	httpclient_parser.rl.cpp	/^int httpclient_parser_execute(httpclient_parser *parser, const char *buffer, size_t len, size_t off)  $/;"	f
+httpclient_parser_finish	httpclient_parser.rl.cpp	/^int httpclient_parser_finish(httpclient_parser *parser)$/;"	f
+httpclient_parser_first_final	httpclient_parser.rl.cpp	/^static const int httpclient_parser_first_final = 120;$/;"	v	file:
+httpclient_parser_h	httpclient_parser.h	36;"	d
+httpclient_parser_has_error	httpclient_parser.rl.cpp	/^int httpclient_parser_has_error(httpclient_parser *parser) {$/;"	f
+httpclient_parser_init	httpclient_parser.rl.cpp	/^int httpclient_parser_init(httpclient_parser *parser)  {$/;"	f
+httpclient_parser_is_finished	httpclient_parser.rl.cpp	/^int httpclient_parser_is_finished(httpclient_parser *parser) {$/;"	f
+httpclient_parser_nread	httpclient_parser.h	72;"	d
+httpclient_parser_start	httpclient_parser.rl.cpp	/^static const int httpclient_parser_start = 1;$/;"	v	file:
+isClose	http.hpp	/^    bool isClose() const { return m_close; }$/;"	f	class:stone::http::HttpRequest
+isClose	http.hpp	/^    bool isClose() const { return m_close; }$/;"	f	class:stone::http::HttpResponse
+isFinished	http_parser.cpp	/^int HttpRequestParser::isFinished(){$/;"	f	class:stone::http::HttpRequestParser
+isFinished	http_parser.cpp	/^int HttpResponseParser::isFinished(){$/;"	f	class:stone::http::HttpResponseParser
+isStop	tcp_server.hpp	/^    bool isStop() const { return m_isStop;}$/;"	f	class:stone::TcpServer
+json_sent	http11_parser.h	/^    int json_sent;$/;"	m	struct:http_parser
+last_chunk	httpclient_parser.h	/^    element_cb last_chunk;$/;"	m	struct:httpclient_parser
+listAllGlobServletCreator	servlet.cpp	/^void ServletDispatch::listAllGlobServletCreator(std::map<std::string, IServletCreator::ptr>& infos) {$/;"	f	class:stone::http::ServletDispatch
+listAllServletCreator	servlet.cpp	/^void ServletDispatch::listAllServletCreator(std::map<std::string, IServletCreator::ptr>& infos) {$/;"	f	class:stone::http::ServletDispatch
+m_acceptWorker	tcp_server.hpp	/^    IOManager* m_acceptWorker;$/;"	m	class:stone::TcpServer
+m_body	http.hpp	/^    std::string m_body;$/;"	m	class:stone::http::HttpRequest
+m_body	http.hpp	/^    std::string m_body;$/;"	m	class:stone::http::HttpResponse
+m_cb	servlet.hpp	/^        callback m_cb;$/;"	m	class:stone::http::FunctionServlet
+m_close	http.hpp	/^    bool m_close;$/;"	m	class:stone::http::HttpRequest
+m_close	http.hpp	/^    bool m_close;$/;"	m	class:stone::http::HttpResponse
+m_content	servlet.hpp	/^        std::string m_content;$/;"	m	class:stone::http::NotFoundServlet
+m_cookies	http.hpp	/^    MapType m_cookies;$/;"	m	class:stone::http::HttpRequest
+m_data	http_parser.hpp	/^    HttpRequest::ptr m_data;$/;"	m	class:stone::http::HttpRequestParser
+m_data	http_parser.hpp	/^    HttpResponse::ptr m_data;$/;"	m	class:stone::http::HttpResponseParser
+m_datas	servlet.hpp	/^        std::unordered_map<std::string, IServletCreator::ptr> m_datas;$/;"	m	class:stone::http::ServletDispatch
+m_default	servlet.hpp	/^        Servlet::ptr m_default;$/;"	m	class:stone::http::ServletDispatch
+m_error	http_parser.hpp	/^    int m_error;$/;"	m	class:stone::http::HttpRequestParser
+m_error	http_parser.hpp	/^    int m_error;$/;"	m	class:stone::http::HttpResponseParser
+m_fragment	http.hpp	/^    std::string m_fragment;$/;"	m	class:stone::http::HttpRequest
+m_globs	servlet.hpp	/^        std::vector<std::pair<std::string, IServletCreator::ptr> > m_globs;$/;"	m	class:stone::http::ServletDispatch
+m_headers	http.hpp	/^    MapType m_headers;$/;"	m	class:stone::http::HttpRequest
+m_headers	http.hpp	/^    MapType m_headers;$/;"	m	class:stone::http::HttpResponse
+m_isKeepalive	http_server.hpp	/^    bool m_isKeepalive;$/;"	m	class:stone::http::HttpServer
+m_isStop	tcp_server.hpp	/^    bool m_isStop;$/;"	m	class:stone::TcpServer
+m_method	http.hpp	/^    HttpMethod m_method;$/;"	m	class:stone::http::HttpRequest
+m_mutex	servlet.hpp	/^        RWMutexType m_mutex;$/;"	m	class:stone::http::ServletDispatch
+m_name	servlet.hpp	/^        std::string m_name;$/;"	m	class:stone::http::NotFoundServlet
+m_name	servlet.hpp	/^    std::string m_name;$/;"	m	class:stone::http::Servlet
+m_name	tcp_server.hpp	/^    std::string m_name;$/;"	m	class:stone::TcpServer
+m_params	http.hpp	/^    MapType m_params;$/;"	m	class:stone::http::HttpRequest
+m_parser	http_parser.hpp	/^    http_parser m_parser;$/;"	m	class:stone::http::HttpRequestParser
+m_parser	http_parser.hpp	/^    httpclient_parser m_parser;$/;"	m	class:stone::http::HttpResponseParser
+m_path	http.hpp	/^    std::string m_path;$/;"	m	class:stone::http::HttpRequest
+m_query	http.hpp	/^    std::string m_query;$/;"	m	class:stone::http::HttpRequest
+m_reason	http.hpp	/^    std::string m_reason;$/;"	m	class:stone::http::HttpResponse
+m_recvTimeout	tcp_server.hpp	/^    uint64_t m_recvTimeout;$/;"	m	class:stone::TcpServer
+m_servlet	servlet.hpp	/^        Servlet::ptr m_servlet;$/;"	m	class:stone::http::HoldServletCreator
+m_socks	tcp_server.hpp	/^    std::vector<Socket::ptr> m_socks;$/;"	m	class:stone::TcpServer
+m_status	http.hpp	/^    HttpStatus m_status;$/;"	m	class:stone::http::HttpResponse
+m_version	http.hpp	/^    int8_t m_version;$/;"	m	class:stone::http::HttpRequest
+m_version	http.hpp	/^    uint8_t m_version;$/;"	m	class:stone::http::HttpResponse
+m_worker	tcp_server.hpp	/^    IOManager* m_worker;$/;"	m	class:stone::TcpServer
+mark	http11_parser.h	/^    size_t mark;$/;"	m	struct:http_parser
+mark	httpclient_parser.h	/^    size_t mark;$/;"	m	struct:httpclient_parser
+nread	http11_parser.h	/^    size_t nread;$/;"	m	struct:http_parser
+nread	httpclient_parser.h	/^    size_t nread;$/;"	m	struct:httpclient_parser
+on_request_fragment	http_parser.cpp	/^void on_request_fragment(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_request_header_done	http_parser.cpp	/^void on_request_header_done(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_request_http_field	http_parser.cpp	/^void on_request_http_field(void *data, const char *field, size_t flen, const char *value, size_t vlen){$/;"	f	namespace:stone::http
+on_request_method	http_parser.cpp	/^void on_request_method(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_request_path	http_parser.cpp	/^void on_request_path(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_request_query	http_parser.cpp	/^void on_request_query(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_request_uri	http_parser.cpp	/^void on_request_uri(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_request_version	http_parser.cpp	/^void on_request_version(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_response_chunk	http_parser.cpp	/^void on_response_chunk(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_response_header_done	http_parser.cpp	/^void on_response_header_done(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_response_http_field	http_parser.cpp	/^void on_response_http_field(void *data, const char *field, size_t flen, const char *value, size_t vlen){$/;"	f	namespace:stone::http
+on_response_last_chunk	http_parser.cpp	/^void on_response_last_chunk(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_response_reason	http_parser.cpp	/^void on_response_reason(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_response_status	http_parser.cpp	/^void on_response_status(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+on_response_version	http_parser.cpp	/^void on_response_version(void *data, const char *at, size_t length){$/;"	f	namespace:stone::http
+operator ()	http.cpp	/^bool CaseInsensitiveLess::operator()(const std::string& lhs,const std::string& rhs) const{$/;"	f	class:stone::http::CaseInsensitiveLess
+operator <<	http.cpp	/^std::ostream& operator<<(std::ostream& os,const HttpRequest& req){$/;"	f	namespace:stone::http
+operator <<	http.cpp	/^std::ostream& operator<<(std::ostream& os,const HttpResponse& rsp){$/;"	f	namespace:stone::http
+override	http_server.hpp	/^    virtual void handleClient(Socket::ptr client) override;$/;"	m	class:stone::http::HttpServer
+override	servlet.hpp	/^                , sylar::http::HttpSession::ptr session) override;$/;"	m	class:stone::http::FunctionServlet
+override	servlet.hpp	/^                , sylar::http::HttpSession::ptr session) override;$/;"	m	class:stone::http::NotFoundServlet
+override	servlet.hpp	/^                , sylar::http::HttpSession::ptr session) override;$/;"	m	class:stone::http::ServletDispatch
+ptr	http.hpp	/^    typedef std::shared_ptr<HttpRequest> ptr;$/;"	t	class:stone::http::HttpRequest
+ptr	http.hpp	/^    typedef std::shared_ptr<HttpResponse> ptr;$/;"	t	class:stone::http::HttpResponse
+ptr	http_parser.hpp	/^    typedef std::shared_ptr<HttpRequestParser> ptr;$/;"	t	class:stone::http::HttpRequestParser
+ptr	http_parser.hpp	/^    typedef std::shared_ptr<HttpResponseParser> ptr;$/;"	t	class:stone::http::HttpResponseParser
+ptr	http_server.hpp	/^    typedef std::shared_ptr<HttpServer> ptr;$/;"	t	class:stone::http::HttpServer
+ptr	http_session.hpp	/^    typedef std::shared_ptr<HttpSession> ptr;$/;"	t	class:stone::http::HttpSession
+ptr	servlet.hpp	/^        typedef std::shared_ptr<FunctionServlet> ptr;$/;"	t	class:stone::http::FunctionServlet
+ptr	servlet.hpp	/^        typedef std::shared_ptr<HoldServletCreator> ptr;$/;"	t	class:stone::http::HoldServletCreator
+ptr	servlet.hpp	/^        typedef std::shared_ptr<IServletCreator> ptr;$/;"	t	class:stone::http::IServletCreator
+ptr	servlet.hpp	/^        typedef std::shared_ptr<NotFoundServlet> ptr;$/;"	t	class:stone::http::NotFoundServlet
+ptr	servlet.hpp	/^        typedef std::shared_ptr<ServletCreator> ptr;$/;"	t	class:stone::http::ServletCreator
+ptr	servlet.hpp	/^        typedef std::shared_ptr<ServletDispatch> ptr;$/;"	t	class:stone::http::ServletDispatch
+ptr	servlet.hpp	/^    typedef std::shared_ptr<Servlet> ptr;$/;"	t	class:stone::http::Servlet
+ptr	tcp_server.hpp	/^    typedef std::shared_ptr<TcpServer> ptr;$/;"	t	class:stone::TcpServer
+query_start	http11_parser.h	/^    size_t query_start;$/;"	m	struct:http_parser
+query_string	http11_parser.h	/^    element_cb query_string;$/;"	m	struct:http_parser
+reason_phrase	httpclient_parser.h	/^    element_cb reason_phrase;$/;"	m	struct:httpclient_parser
+recvRequest	http_session.cpp	/^HttpRequest::ptr HttpSession::recvRequest(){$/;"	f	class:stone::http::HttpSession
+request_method	http11_parser.h	/^    element_cb request_method;$/;"	m	struct:http_parser
+request_path	http11_parser.h	/^    element_cb request_path;$/;"	m	struct:http_parser
+request_uri	http11_parser.h	/^    element_cb request_uri;$/;"	m	struct:http_parser
+s_http_request_buffer_size	http_parser.cpp	/^static uint64_t s_http_request_buffer_size = 0;$/;"	m	namespace:stone::http	file:
+s_http_request_max_body_size	http_parser.cpp	/^static uint64_t s_http_request_max_body_size = 0;$/;"	m	namespace:stone::http	file:
+s_method_string	http.cpp	/^static const char* s_method_string[] = {$/;"	m	namespace:stone::http	file:
+sendResponse	http_session.cpp	/^int HttpSession::sendResponse(HttpResponse::ptr rsp){$/;"	f	class:stone::http::HttpSession
+setBody	http.hpp	/^    void setBody(const std::string& v) { m_body = v; }$/;"	f	class:stone::http::HttpResponse
+setBody	http.hpp	/^    void setBody(const std::string& v) { m_body = v;}$/;"	f	class:stone::http::HttpRequest
+setClose	http.hpp	/^    void setClose(bool v) { m_close = v; }$/;"	f	class:stone::http::HttpRequest
+setClose	http.hpp	/^    void setClose(bool v) { m_close = v; }$/;"	f	class:stone::http::HttpResponse
+setCookie	http.cpp	/^void HttpRequest::setCookie(const std::string& key,const std::string& val){$/;"	f	class:stone::http::HttpRequest
+setCookies	http.hpp	/^    void setCookies(const MapType& v){ m_cookies = v;}$/;"	f	class:stone::http::HttpRequest
+setDefault	servlet.hpp	/^        void setDefault(Servlet::ptr v) { m_default = v;}$/;"	f	class:stone::http::ServletDispatch
+setError	http_parser.hpp	/^    void setError(int error) { m_error = error;}$/;"	f	class:stone::http::HttpRequestParser
+setError	http_parser.hpp	/^    void setError(int error) { m_error = error;}$/;"	f	class:stone::http::HttpResponseParser
+setFragment	http.hpp	/^    void setFragment(const std::string& v) { m_fragment = v;}$/;"	f	class:stone::http::HttpRequest
+setHeader	http.cpp	/^void HttpRequest::setHeader(const std::string& key,const std::string& val){$/;"	f	class:stone::http::HttpRequest
+setHeader	http.cpp	/^void HttpResponse::setHeader(const std::string& key,const std::string& val){$/;"	f	class:stone::http::HttpResponse
+setHeaders	http.hpp	/^    void setHeaders(const MapType& v) { m_headers = v; }$/;"	f	class:stone::http::HttpResponse
+setHeaders	http.hpp	/^    void setHeaders(const MapType& v){ m_headers = v;}$/;"	f	class:stone::http::HttpRequest
+setMethod	http.hpp	/^    void setMethod(HttpMethod v) { m_method = v; }$/;"	f	class:stone::http::HttpRequest
+setName	tcp_server.hpp	/^    void setName(const std::string& v)  { m_name = v;}$/;"	f	class:stone::TcpServer
+setParam	http.cpp	/^void HttpRequest::setParam(const std::string& key,const std::string& val){$/;"	f	class:stone::http::HttpRequest
+setParmas	http.hpp	/^    void setParmas(const MapType& v){ m_params = v;}$/;"	f	class:stone::http::HttpRequest
+setPath	http.hpp	/^    void setPath(const std::string& v) { m_path = v;}$/;"	f	class:stone::http::HttpRequest
+setQuery	http.hpp	/^    void setQuery(const std::string& v) { m_query = v;}$/;"	f	class:stone::http::HttpRequest
+setReason	http.hpp	/^    void setReason(const std::string& v) { m_reason = v; }$/;"	f	class:stone::http::HttpResponse
+setRecvTimeout	tcp_server.hpp	/^    void setRecvTimeout(uint64_t v) { m_recvTimeout = v;}$/;"	f	class:stone::TcpServer
+setStatus	http.hpp	/^    void setStatus(HttpStatus v) { m_status = v; }$/;"	f	class:stone::http::HttpResponse
+setVersion	http.hpp	/^    void setVersion(int8_t v) { m_version = v; }$/;"	f	class:stone::http::HttpRequest
+setVersion	http.hpp	/^    void setVersion(uint8_t v) { m_version = v; }$/;"	f	class:stone::http::HttpResponse
+start	tcp_server.cpp	/^bool TcpServer::start(){$/;"	f	class:stone::TcpServer
+startAccept	tcp_server.cpp	/^void TcpServer::startAccept(Socket::ptr sock){$/;"	f	class:stone::TcpServer
+status	httpclient_parser.h	/^    int status;$/;"	m	struct:httpclient_parser
+status_code	httpclient_parser.h	/^    element_cb status_code;$/;"	m	struct:httpclient_parser
+stone	http.cpp	/^namespace stone{$/;"	n	file:
+stone	http.hpp	/^namespace stone{$/;"	n
+stone	http_parser.cpp	/^namespace stone{$/;"	n	file:
+stone	http_parser.hpp	/^namespace stone{$/;"	n
+stone	http_server.cpp	/^namespace stone{$/;"	n	file:
+stone	http_server.hpp	/^namespace stone{$/;"	n
+stone	http_session.cpp	/^namespace stone{$/;"	n	file:
+stone	http_session.hpp	/^namespace stone{$/;"	n
+stone	servlet.cpp	/^namespace stone {$/;"	n	file:
+stone	servlet.hpp	/^namespace stone{$/;"	n
+stone	tcp_server.cpp	/^namespace stone{$/;"	n	file:
+stone	tcp_server.hpp	/^namespace stone{$/;"	n
+stop	tcp_server.cpp	/^bool TcpServer::stop(){$/;"	f	class:stone::TcpServer
+toString	http.cpp	/^std::string HttpRequest::toString() const{$/;"	f	class:stone::http::HttpRequest
+toString	http.cpp	/^std::string HttpResponse::toString() const{$/;"	f	class:stone::http::HttpResponse
+uri_relaxed	http11_parser.h	/^    int uri_relaxed;$/;"	m	struct:http_parser
+xml_sent	http11_parser.h	/^    int xml_sent;$/;"	m	struct:http_parser
+~IServletCreator	servlet.hpp	/^        virtual ~IServletCreator() {}$/;"	f	class:stone::http::IServletCreator
+~Servlet	servlet.hpp	/^    virtual ~Servlet() {}$/;"	f	class:stone::http::Servlet
+~TcpServer	tcp_server.cpp	/^TcpServer::~TcpServer(){$/;"	f	class:stone::TcpServer

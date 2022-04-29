@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O0 -std=c++11 -ggdb -g -Wall -Wno-deprecated -Werror -Wno-unused-function -fPIC  -rdynamic CMakeFiles/test_address.dir/tests/test_address.cpp.o  -o ../bin/test_address -Wl,-rpath,/home/admin/stone/lib ../lib/libstone.so -ldl -lpthread -lyaml-cpp -ljsoncpp -ltinyxml2 -lsqlite3 orm_out/liborm_data.a -ldl 
